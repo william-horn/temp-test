@@ -1,0 +1,34 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.wireframe * {
+    outline: 1px solid red !important;
+} 
+
+.text-hide {
+    color: rgba(0, 0, 0, 0);
+}
+
+/* Themes */
+@layer base {
+    :root {
+        --text-color-base: red;
+        --text-color-muted: gray;
+        --text-color-inverted: blue;
+
+        --bg-color-base: yellow;
+        --bg-color-muted: pink;
+        --bg-color-inverted: orange;
+    }
+
+    .theme-dark {
+        --text-color-base: white;
+        --text-color-muted: blue;
+        --text-color-inverted: purple;
+
+        --bg-color-base: black;
+        --bg-color-muted: green;
+        --bg-color-inverted: yellow;
+    }
+}

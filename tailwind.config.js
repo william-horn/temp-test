@@ -1,9 +1,9 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
-    './src/pages/**/*.{js,ts,jsx,tsx,mdx}',
-    './src/components/**/*.{js,ts,jsx,tsx,mdx}',
-    './src/app/**/*.{js,ts,jsx,tsx,mdx}',
+    './pages/**/*.{js,ts,jsx,tsx,mdx}',
+    './components/**/*.{js,ts,jsx,tsx,mdx}',
+    './app/**/*.{js,ts,jsx,tsx,mdx}',
   ],
   theme: {
     extend: {
@@ -12,6 +12,22 @@ module.exports = {
         'gradient-conic':
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
       },
+
+      textColor: {
+        theme: {
+          base: 'var(--text-color-base)',
+          muted: 'var(--text-color-muted)',
+          inverted: 'var(--text-color-inverted)'
+        }
+      },
+
+      backgroundColor: {
+        theme: {
+          base: 'var(--bg-color-base)',
+          muted: 'var(--bg-color-muted)',
+          inverted: 'var(--bg-color-inverted)'
+        }
+      }
     },
   },
   plugins: [],
