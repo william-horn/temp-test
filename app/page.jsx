@@ -24,8 +24,17 @@ export default function HomePage() {
           </Header.Title>
         </Container>
       </Header>
-      <Navbar></Navbar>
-      <main>
+
+      <Navbar>
+        <Navbar.Item>Home</Navbar.Item>
+        <Navbar.Item>Our Story</Navbar.Item>
+        <Navbar.Item>Shop</Navbar.Item>
+        <Navbar.Item>Wholesale</Navbar.Item>
+        <Navbar.Item>Press</Navbar.Item>
+      </Navbar>
+
+      <main className="h-[1000px]">
+
       </main>
       <footer>
       </footer>
