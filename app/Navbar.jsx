@@ -6,7 +6,7 @@ import shoppingCartIcon from '../public/images/shopping-cart.png'
 const Navbar = ({ children }) => {
   return (
     // background nav color: #e2c077
-    <nav className="w-full bg-theme-primary shadow-[0_-3px_10px_black] sticky top-0 pt-2">
+    <nav className="w-full bg-theme-primary shadow-[0_-3px_10px_black] sticky top-0 pt-2 z-[1000]">
         <Container className="relative">
             {/* Webpage navigation buttons */}
             <ul className="flex flex-wrap justify-center gap-3 pb-2">

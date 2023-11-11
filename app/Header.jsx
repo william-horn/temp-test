@@ -5,7 +5,7 @@ import rightBannerImage from "../public/images/wag-butter-feeding.webp"
 
 const Header = function Header({ children }) {
   return (
-    <header className="relative z-20">
+    <header className="relative z-[1001]">
       <Container className="bg-[#1f273c] text-center pt-2 pb-2 font-[500] text-xs text-white">
         <p>Thanks for visiting! Free shipping on orders of $70 or more!</p>
       </Container>
