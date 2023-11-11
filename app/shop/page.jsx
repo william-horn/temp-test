@@ -18,16 +18,17 @@ const JarItem = ({ name }) => {
 
 export default function Shop() {
   return (
-    <Container className="py-10 px-12 flex flex-wrap gap-10 justify-center">
-        <JarItem name="Carrot Cake"/>
-        <JarItem name="Lemon Coconut"/>
-        <JarItem name="Oat Milk Mocca"/>
-        <JarItem name="Crunchy Peanut Butter"/>
-        <JarItem name="Chocolate Sea Salt"/>
-        <JarItem name="Fiji Ginger"/>
-        <JarItem name="Chai Spice"/>
-        <JarItem name="Tigerwalk Espresso"/>
-
-  </Container>
+    <main>
+      <Container className="py-10 px-12 flex flex-wrap gap-10 justify-center">
+          <JarItem name="Carrot Cake"/>
+          <JarItem name="Lemon Coconut"/>
+          <JarItem name="Oat Milk Mocca"/>
+          <JarItem name="Crunchy Peanut Butter"/>
+          <JarItem name="Chocolate Sea Salt"/>
+          <JarItem name="Fiji Ginger"/>
+          <JarItem name="Chai Spice"/>
+          <JarItem name="Tigerwalk Espresso"/>
+      </Container>
+    </main>
   )
 }
