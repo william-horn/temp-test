@@ -15,7 +15,7 @@ module.exports = {
 
       textColor: {
         theme: {
-          base: 'var(--text-color-base)',
+          primary: 'var(--text-color-primary)',
           muted: 'var(--text-color-muted)',
           inverted: 'var(--text-color-inverted)'
         }
@@ -23,9 +23,11 @@ module.exports = {
 
       backgroundColor: {
         theme: {
-          base: 'var(--bg-color-base)',
+          primary: 'var(--bg-color-primary)',
+          secondary: 'var(--bg-color-secondary)',
           muted: 'var(--bg-color-muted)',
-          inverted: 'var(--bg-color-inverted)'
+          inverted: 'var(--bg-color-inverted)',
+          ['nav-item-hover']: 'var(--bg-color-nav-item-hover)'
         }
       }
     },

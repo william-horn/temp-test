@@ -17,9 +17,12 @@
         --text-color-muted: gray;
         --text-color-inverted: blue;
 
-        --bg-color-base: yellow;
+        --bg-color-primary: #fff4dc;
+        --bg-color-secondary: #ffe8aa;
         --bg-color-muted: pink;
         --bg-color-inverted: orange;
+
+        --bg-color-nav-item-hover: #cedd7b;
     }
 
     .theme-dark {
@@ -27,8 +30,9 @@
         --text-color-muted: blue;
         --text-color-inverted: purple;
 
-        --bg-color-base: black;
-        --bg-color-muted: green;
-        --bg-color-inverted: yellow;
+        --bg-color-primary: red;
+        --bg-color-secondary: green;
+        --bg-color-muted: blue;
+        --bg-color-inverted: orange;
     }
 }

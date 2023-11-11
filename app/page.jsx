@@ -10,16 +10,18 @@ export default function HomePage() {
   return (
     <>
       <Header>
-        <Container className="pt-2 pb-4">
-          <Link href="/">
-            <Image
-            alt="Bigspoon Logo"
-            priority={true}
-            width={200}
-            height="auto"
-            src={Logo}
-            />
-          </Link>
+        <Container className="bg-theme-primary pt-2 pb-4">
+          <Header.Title title="Big Spoon Roasters">
+            <Link href="/">
+              <Image
+              alt="Bigspoon Logo"
+              priority={true}
+              width={200}
+              height="auto"
+              src={Logo}
+              />
+            </Link>
+          </Header.Title>
         </Container>
       </Header>
       <Navbar></Navbar>
