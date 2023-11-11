@@ -28,7 +28,7 @@ export default function RootLayout({ children }) {
             <Header.Title title="Big Spoon Roasters">
               <Link href="/">
                 <Image
-                alt="Bigspoon Logo"
+                alt="Big Spoon Roasters Logo"
                 priority={true}
                 width={200}
                 height="auto"
@@ -45,6 +45,7 @@ export default function RootLayout({ children }) {
           <Navbar.Item href="/shop">Shop</Navbar.Item>
           <Navbar.Item href="/wholesale">Wholesale</Navbar.Item>
           <Navbar.Item href="/press">Press</Navbar.Item>
+          <Navbar.Item href="/news">Learn</Navbar.Item>
         </Navbar>
 
         {children}

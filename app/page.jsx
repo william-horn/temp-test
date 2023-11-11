@@ -11,6 +11,9 @@ export default function HomePage() {
   return (
     <>
       <main className="h-[1000px]">
+        <Container>
+          
+        </Container>
       </main>
       <footer>
       </footer>

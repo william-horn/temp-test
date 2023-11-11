@@ -28,6 +28,14 @@ export default function Shop() {
           <JarItem name="Fiji Ginger"/>
           <JarItem name="Chai Spice"/>
           <JarItem name="Tigerwalk Espresso"/>
+          <JarItem name="Carrot Cake"/>
+          <JarItem name="Lemon Coconut"/>
+          <JarItem name="Oat Milk Mocca"/>
+          <JarItem name="Crunchy Peanut Butter"/>
+          <JarItem name="Chocolate Sea Salt"/>
+          <JarItem name="Fiji Ginger"/>
+          <JarItem name="Chai Spice"/>
+          <JarItem name="Tigerwalk Espresso"/>
       </Container>
     </main>
   )
